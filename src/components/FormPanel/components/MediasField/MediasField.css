@@ -1,0 +1,40 @@
+.media {
+    border-radius: 2px;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+}
+
+.media__field {
+    padding: 10px;
+    position: relative;
+}
+
+.button {
+    background-color: transparent;
+    -webkit-appearance: none;
+    cursor: pointer;
+    font-size: 1em;
+    outline: none;
+    margin: 0;
+    border: 0 none;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    letter-spacing: inherit;
+    border-radius: 2px;
+    padding: 0 30px;
+    height: 40px;
+    line-height: 38px;
+    text-align: center;
+    transition: color 0.2s linear, border-color 0.2s linear, background-color 0.2s linear;
+}
+
+.button--ghost {
+    height: 35px;
+    line-height: 33px;
+    border-radius: 17.5px;
+    background-color: transparent;
+    border: 1px solid #d9d9d9;
+    color: #8c8c8c;
+    padding: 0 20px;
+}

@@ -1,0 +1,21 @@
+.checkbox {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+
+.checkbox__input {
+    float: left;
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    border: 0 none;
+    cursor: pointer;
+}
+
+.checkbox__label {
+    display: block;
+    position: relative;
+    padding-left: 10px;
+    color: #8c8c8c;
+}

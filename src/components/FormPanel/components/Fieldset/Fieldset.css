@@ -1,0 +1,44 @@
+.field > .fieldset {
+    min-height: auto;
+    border: 1px solid #e5e5e5;
+}
+
+.fieldset__header {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 50px;
+    background: #e5e5e5;
+    cursor: pointer;
+}
+
+.fieldset__header.fieldset--hoverable:hover {
+    background-color: #d9d9d9;
+}
+
+.fieldset__header__label {
+    display: inline-block;
+    margin: 0;
+    margin: 0px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    user-select: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.fieldset__header__label.input {
+    background-color: rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.fieldset__content {
+    position: relative;
+    min-height: 50px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

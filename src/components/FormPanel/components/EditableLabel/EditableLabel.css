@@ -1,0 +1,11 @@
+input:disabled {
+    color: inherit;
+    border: none;
+}
+
+input.label-editable {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+}

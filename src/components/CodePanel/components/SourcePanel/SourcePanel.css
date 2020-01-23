@@ -1,0 +1,22 @@
+#json-panel {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#invalid-json-warning {
+    background-color: red;
+    color: #FFF;
+    margin: 0;
+    padding: 5px 5px;
+    font-size: 0.8rem;
+}
+
+#json-textarea {
+    flex: 1;
+    background-color: gray;
+    outline: none;
+    border: none;
+    padding: 10px;
+    resize: none;
+}

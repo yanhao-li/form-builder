@@ -1,0 +1,42 @@
+#form-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 15;
+    position: relative;
+    overflow-y: scroll;
+    min-height: 100%;
+    background-color: #f2f2f2;
+}
+
+.form-panel-btn {
+    display: flex;
+    position: relative;
+    font-size: 15px;
+    align-items: center;
+    font-weight: bold;
+    justify-content: center;
+    margin: 10px 20px;
+    background-color: #000;
+    width: 95%;
+    min-height: 50px;
+    color: gray;
+    cursor: pointer;
+}
+
+#edit-mode-switcher {
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2.5%;
+    margin-top: 20px;
+}
+
+#edit-mode-switcher > .switcher-label {
+    margin: 0;
+    font-size: 15px;
+    vertical-align: middle;
+    line-height: 15px;
+    margin-right: 10px;
+}

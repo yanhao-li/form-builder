@@ -1,0 +1,11 @@
+#code-panel {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex-grow: 5;
+}
+
+#source-code-panel {
+    flex: 5;
+    background-color: black;
+}

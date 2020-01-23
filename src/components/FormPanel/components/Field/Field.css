@@ -1,0 +1,30 @@
+.field {
+    position: relative;
+    width: 95%;
+    margin: 20px 0;
+}
+
+.field.placeholder {
+    background-color: #FFF;
+    border: dotted #000;
+}
+
+.delete-field-btn { 
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #e31a22;
+    border-radius: 50%;
+    right: -15px;
+    top: -15px;
+    color: #FFF;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.field.edit-mode {
+    border: dotted #000;
+}

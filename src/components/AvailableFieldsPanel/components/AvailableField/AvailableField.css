@@ -1,0 +1,12 @@
+.available-field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    margin: 10px 0;
+    width: 90%;
+    background-color: rgb(65, 65, 65);
+    color: #FFF;
+    cursor: pointer;
+}

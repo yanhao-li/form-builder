@@ -47,7 +47,7 @@ function SourcePanel(props) {
     // console.log('localStorage get updated: ', json);
     parseJson(json);
     localStorage.setItem('json', json);
-    window.history.pushState(null, '', '?data=' + json);
+    // window.history.pushState(null, '', '?data=' + json);
   }, [json])
 
   // Update raw data when formFields get updated

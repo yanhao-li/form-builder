@@ -54,17 +54,17 @@ function Field(props) {
       break;
     case 'input':
       fieldBody = (
-        <InputField />
+        <InputField {...props}/>
       );
       break;
     case 'medias':
       fieldBody = (
-        <MediasField />
+        <MediasField {...props}/>
       );
       break;
     case 'checkbox':
       fieldBody = (
-        <CheckboxField />
+        <CheckboxField {...props}/>
       );
       break;
     default:

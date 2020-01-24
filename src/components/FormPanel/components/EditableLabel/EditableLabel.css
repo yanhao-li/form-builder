@@ -1,6 +1,7 @@
 input:disabled {
     color: inherit;
     border: none;
+    outline: none;
 }
 
 input.label-editable {

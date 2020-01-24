@@ -4,8 +4,14 @@ import './InputField.css';
 
 const InputField = (props) => {
 
+  const { field, index, onFieldUpdate } = props;
+  console.log(field);
+
   const handleLabelChange = (label) => {
-    
+    onFieldUpdate(index, {
+      ...field,
+      label: label
+    })
   }
 
   return (
@@ -13,7 +19,7 @@ const InputField = (props) => {
       <label className="input__label">
         <EditableLabel
           className="input__label__label"
-          label="Subtitle"
+          label={field.label}
           onLabelChange={handleLabelChange}
         />
         <span className="input__note">
